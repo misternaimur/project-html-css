@@ -1,0 +1,173 @@
+/* font style */
+.azeret-mono-naimur {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding:0px;
+
+}
+/* Share - style */
+
+.text-primary{
+    color: black;
+}
+
+.btn-primary{
+    padding: 24px 21px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+/* Nav Style */
+
+.header{
+    background-color:white;
+    padding:15px;
+    border-radius: 20px 20px 0px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: px;
+  
+}
+
+nav ul{
+    margin: 20px;
+    display:flex;
+    font-size: 20px;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+
+/* Hero-section-style */
+.banner{
+    position: relative;
+    width: 1440px;
+    height: 652px;
+    display: flex;
+}
+.banner-bg{
+    position: absolute;
+    width: 100%;
+}
+.banner-items{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 26px 221px;
+    
+}
+
+.avata{
+    position: absolute;
+    margin: 0px 378px 386px 378px ;
+}
+
+.banner-title{
+    position: absolute;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 272px 0 119px 0;
+}
+.bannner-sub-text{
+    color: black;
+    opacity: 0.8;
+    text-align: center;
+    margin: 432px 73px 0px 73px;
+}
+
+.banner-btn{
+    position: absolute;
+    background-color: black; 
+    color: aliceblue;
+    margin: 32px 377px 0px 377px;
+    width: 244px;
+    height: 65px;
+}
+
+
+/*card- style */
+
+
+.card-section{
+   background-color: azure;
+   border-color: black;
+   margin: 0px 148px 0px 148px;
+   padding: 80px 97px 80px 97px;
+   
+}
+.card-items{
+    width:946px;
+    height: 1233px;
+}
+.card-title{
+    font-size: 32px;
+    width: 780px;
+    height: 37px;
+    color: black;
+    text-align: center;   
+}
+.card-sub-title{
+    color: black;
+    width: 780px;
+    height: 52px;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 61px;
+}
+.card-item{
+    gap:98px    ;
+    display: flex;
+    padding: 48px;
+    align-items: center;
+}
+
+
+.card-item-img{
+    border-style: ridge;
+    width: 232px;
+    height: 200px;  
+}
+.card-item-title{
+    color: black;
+    text-align: left;
+    font-size: 24px;
+}
+.card-item-subtitle{ 
+    color:black;
+    text-align: left;
+    opacity: 0.5;
+    font-size: 15px;
+    margin-top: 8px;
+
+}
+.card-btn{
+    top:3px;
+    right:308px;
+    padding: 12px 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    background-color:white;
+}
+
+.card-item-content{
+    width: 400px;
+    border-style: ridge;
+}
