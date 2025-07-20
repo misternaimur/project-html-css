@@ -251,7 +251,8 @@ nav ul{
     padding: 40px;
     justify-content: space-between;
 }
-.contact-bg {
+.contact-bg
+ {
   background-image: url('/assets/handshake.jpg');
   background-size: cover;
   background-position: center;
