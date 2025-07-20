@@ -242,7 +242,8 @@ nav ul{
     background-color: #004de859;
     opacity: 0.8px;
 }
-.skill-card{
+.skill-card
+{
     width: 364px;
     border-style: ridge;
     gap: 24px;
