@@ -11,6 +11,7 @@
     padding:0px;
 
 }
+
 /* Share - style */
 
 .text-primary{
@@ -107,41 +108,40 @@ nav ul{
 
 
 .card-section{
-   background-color: azure;
+   
    border-color: black;
-   margin: 0px 148px 0px 148px;
-   padding: 80px 97px 80px 97px;
+   margin: 0px 148px 0px 258px;
+   
    
 }
 .card-items{
     width:946px;
-    height: 1233px;
+    align-items: center;
+    border-style: ridge;
 }
 .card-title{
     font-size: 32px;
-    width: 780px;
-    height: 37px;
     color: black;
-    text-align: center;   
+    text-align: center;
+    margin-top: 10px;   
 }
 .card-sub-title{
     color: black;
-    width: 780px;
-    height: 52px;
     opacity: 0.8;
     text-align: center;
-    margin-top: 61px;
+    margin-top: 10px;
 }
 .card-item{
     gap:98px    ;
     display: flex;
     padding: 48px;
+    border-radius: 1px;
+    box-shadow: inset;
     align-items: center;
 }
 
 
 .card-item-img{
-    border-style: ridge;
     width: 232px;
     height: 200px;  
 }
@@ -169,5 +169,155 @@ nav ul{
 
 .card-item-content{
     width: 400px;
+}
+
+
+/* video tag */
+.video-section{
+    align-items: center;
+}
+
+.video-card 
+{
+    align-items: center;
+    width: 500px;
+    height: 281px;
+    align-items: center;
+    padding: 20px;
+}
+.container{
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 700px;
+    margin-left: 350px;
+    display: block;
+    
+}
+.skills-card-items{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.html{
+    background-color: #ff4b1e3e;
+    opacity: 0.8px;
+}
+.html-title .js-title .css-title{
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin-top: 10px; 
+    
+}
+.html-sub-title {
+    color: black;
+    opacity: 0.8;
+    text-align:left;
+    margin-top: 10px;
+}
+
+.css-sub-title{
+    color: black;
+    opacity: 0.8;
+    text-align:left;
+    margin-top: 10px;
+}
+
+.js-sub-title{
+    color: black;
+    opacity: 0.8;
+    text-align:left;
+    margin-top: 10px;
+}
+
+.j-s-color{
+    background-color: #ffdd006f;
+    opacity: 0.8px;
+}
+
+.css-color{
+    background-color: #004de859;
+    opacity: 0.8px;
+}
+.skill-card{
+    width: 364px;
     border-style: ridge;
+    gap: 24px;
+    border-radius:8px;
+    padding: 40px;
+    justify-content: space-between;
+}
+.contact-bg {
+  background-image: url('/assets/handshake.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 313px;
+  width: 1140px;
+  border-radius: 15px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-overlay {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.overlay h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.overlay p {
+  margin: 10px 0 20px;
+  font-size: 1px;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.contact-form input {
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  border-top: 2px solid #007BFF;
+  background-color: #f9f9f9;
+}
+
+
+.footer-img{
+    display: flex;
+    align-items: end;
 }
